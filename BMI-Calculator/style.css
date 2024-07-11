@@ -1,0 +1,84 @@
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.span1 {
+    padding: 1%;
+    border: 1px solid red;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+.main-div {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+    color: black;
+}
+
+input {
+    /*display: block; /* Ensure inputs are block elements */
+    width: 80%; /* Full width within the container */
+    max-width: 150px; /* Optional: max width to control input size */
+    margin: 10px auto 26px auto; /* Center the input and add margins */
+    text-align: center;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 8px;
+}
+
+.btn {
+    font-size: 20px;
+    display: block; /* Ensure button is a block element */
+    width: 80%; /* Full width within the container */
+    max-width: 300px; /* Optional: max width to control button size */
+    margin: 20px auto 26px auto; /* Center the button and add margins */
+    text-align: center;
+    color: black;
+    padding: 10px 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer; /* Add cursor pointer for better UX */
+}
+
+.btn:hover {
+    background-color: rgb(132, 127, 127); /* Add hover effect for better UX */
+}
+
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+    max-width: 300px;
+    margin: 20px auto; /* Center the result div */
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: black;   
+}  
+
+#weight-guide {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color:#414141;
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: white; 
+    display: none; /* Ensure it is hidden by default */
+}
