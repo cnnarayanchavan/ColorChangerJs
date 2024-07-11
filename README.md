@@ -1,2 +1,2 @@
 # ColorChangerJs
-This project includes the powerful fusion of HTML,CSS nad JS to demonstrate my skills in intermediate JavaScript 
+This project includes the fusion of HTML,CSS nad JS to demonstrate skills in manipulating DOM to getting started with JS
