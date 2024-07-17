@@ -13,12 +13,12 @@ const overWeight = document.getElementById('overWeight');
 
 
 if (height === '' || isNaN(height) || height<0 ) {
-    //result.innerHTML = 'Please enter valid height';
+    result.innerHTML = 'Please enter valid height';
     alert(`Please enter valid height it is: ${height}`)
 }
 
 else if (weight === '' || isNaN(weight) || weight<0 ) {
-    //result.innerHTML = 'Please enter valid weight';
+    result.innerHTML = 'Please enter valid weight';
     alert(`Please enter weight it is: ${weight}`)
 }
 else{

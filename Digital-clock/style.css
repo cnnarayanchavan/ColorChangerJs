@@ -1,0 +1,26 @@
+body{
+    background-color: #414141;
+}
+
+.mainheading{
+    text-align: center;
+    margin-top: 180px;
+    justify-content: center;
+    color: white;
+}
+
+.clock{
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;   
+    color: whitesmoke;
+    border: 4px solid white;
+    padding: 1%;
+    background-color: orange;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #414141;
+}
