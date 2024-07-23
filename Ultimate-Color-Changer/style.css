@@ -1,0 +1,37 @@
+#main{
+   text-align: center;
+   margin-top: 50px;
+   font-size: 4rcap;
+}
+
+body{
+    background-color: #212121;
+    color: aliceblue;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#btn1 {
+    top: 20%;
+    transform: translate(-50%, -50%);
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#btn2 {
+    top: 30%; /* Adjust the distance between buttons */
+    transform: translate(-50%, -50%);
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button:hover{
+    background-color: #43F332;
+}
