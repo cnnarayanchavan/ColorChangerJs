@@ -1,11 +1,28 @@
-//first have to create the hexa codes for color
-
-const randomColor =function(){
-    let hexCode = "0123456789ABCDEF"
-    let sym = "#"
-    for(i = 0; i<6; i++){
-    sym = sym+hexCode[Math.floor(( Math.random()*16))]
-}   
-return sym; 
+const changeColor = ()=>{
+    //function to generate a random color
+    let hex = '0123456789ABCDEF';
+    let color = '#'
+    for(i=0; i<6; i++){
+        color = color+hex[Math.floor(Math.random()*16)]
+    }
+    return color
 }
-console.log(randomColor()); 
+
+let startChanging;
+
+const changeChange= ( )=>{
+    startChanging = setInterval(() => {
+        document.body.style.backgroundColor=changeColor();
+    }, 1000);
+}
+
+const stopStop = ()=>{
+    clearInterval(startChanging)
+}
+
+
+document.getElementById('btn1').addEventListener('click',changeChange)
+document.getElementById('btn2').addEventListener('click',stopStop)
+
+
+
