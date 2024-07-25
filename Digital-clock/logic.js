@@ -7,8 +7,14 @@ const clock = document.querySelector('.clock');
 
 setInterval(()=>{
     let date = new Date();
-    //console.log(date.toLocaleTimeString());
     // clock.innerHTML=date.toLocaleTimeString();
-    const options = { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
+    const options = { 
+        hour: 'numeric', 
+        minute: 'numeric', 
+        second: 'numeric', 
+        hour12: true 
+    };
     clock.innerHTML = date.toLocaleTimeString(undefined, options);
 },1000)
+
+
